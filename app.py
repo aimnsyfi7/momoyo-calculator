@@ -121,7 +121,6 @@ if password == "AimanHensem":
         # 8. Expected Completion Rate = (Expected sale volume / Target sales) * 100
         expected_comp_rate = (
 
-> Hehe:
 (expected_sales_vol / target_sales * 100)
             if target_sales > 0
             else 0.0
