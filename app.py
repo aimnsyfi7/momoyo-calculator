@@ -116,7 +116,7 @@ if password == "AimanHensem":
 
         # 2. Formulasi Asas
         accumulated_sales = accum_before + daily_sales
-        total_delivery = pos_grab + pos_fp + pos_shopee
+        total_delivery = phone_grab + phone_fp + phone_shopee + phone_qr
         pct_delivery = (
             (total_delivery / daily_sales * 100) if daily_sales > 0 else 0.0
         )
