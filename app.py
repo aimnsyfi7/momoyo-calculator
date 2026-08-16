@@ -1,4 +1,4 @@
-> Hehe:
+
 import calendar
 import pandas as pd
 import streamlit as st
@@ -133,7 +133,7 @@ if password == "AimanHensem":
         time_progress = (day_of_month / num_days_in_month) * 100
         expected_sales_vol = (
 
-> Hehe:
+
 (accumulated_sales / day_of_month) * num_days_in_month
             if day_of_month > 0
             else 0.0
@@ -261,7 +261,7 @@ Expected Completion Rate: {expected_comp_rate:.2f}%"""
             if ada_mismatch:
                 st.warning(
 
-> Hehe:
+
 "⚠️ AMARAN: Terdapat ketidakselarasan baki antara POS System & Phone System! Sila semak semula bahagian Lebih/Kurang."
                 )
             else:
