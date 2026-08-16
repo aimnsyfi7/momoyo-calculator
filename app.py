@@ -92,7 +92,7 @@ if password == "AimanHensem":
         accumulated_sales = accum_before + daily_sales
 
         # 3. % of Delivery = ((Grab + Foodpanda + Shopee) / Daily sales) * 100
-        total_delivery = pos_grab + pos_fp + pos_shopee
+        total_delivery = pos_grab + pos_fp + pos_shopee + phone_qr
         pct_delivery = (
             (total_delivery / daily_sales * 100) if daily_sales > 0 else 0.0
         )
